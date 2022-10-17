@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    background: green;
+}
+.slider__controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+.slider__controls button {
+    padding: 10px;
+}
